@@ -1,213 +1,139 @@
-div.box-1 .section-a{
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.9;
-
-
+@import url("https://fonts.googleapis.com/css?family=Kavivanar");
+ 
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
 }
-
-div.Name h1{
-    font-size:3.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height:1.3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-   
-
-
-    color:black;
+ 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: darkcyan;
+  color: white
 }
-
-Div.name p{
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height:1.3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-
+ 
+.wrapper {
+  margin: 100px auto 0;
+  width: 100%;
+  max-width: 680px;
+  padding: 20px;
+  box-sizing: border-box;
 }
-
-div.Experience h3{
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-   
-
-    color: darkcyan
-
+ 
+/* content */
+.content {
+  text-align: center;
 }
-
-div.Experience p{
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height:1.3;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    text-align: left;
-   
-
-
-    color: darkcyan
+ 
+.content h1 {
+  letter-spacing: 1px;
 }
-
-div.Experience {
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    background-color:rgba(243, 243, 243, 0.726);
-    
-
-    color: darkcyan
+ 
+ 
+/* form */
+.form {
+  width: 100%;
+  margin: 25px 0;
 }
-
-div.skills h3{
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    
-   
-
-    color:white
-
-
+ 
+.top-form,
+.middle-form,
+.bottom-form {
+  width: 100%;
+  min-height: 65px;
+  margin: 10px 0;
 }
-
-div.skills {
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    background-color: teal;
-   
-
-    color:white;
+ 
+.form input[type="text"],
+.form textarea {
+  border: 2px solid #fff;
+  padding: 15px 5px;
+  outline: none;
+  border-radius: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
 }
-
-div.Education h3{
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    margin: auto;
-    max-width: 860px;
-    padding: 5rem 0;
+ 
+.form input:focus,
+.form textarea:focus {
+  border-color: #4ca1af;
+  outline: none;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.0125),
+    0 0 8px rgba(76, 161, 175, 0.5);
 }
-
-div.Education {
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    background-color:rgba(243, 243, 243, 0.726);
-    
-
-    color: darkcyan
-
-
-
-
+ 
+.form .label {
+  margin-bottom: 5px;
+  text-transform: capitalize;
 }
-
-div.Proffesional-summary h3{
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    margin: auto;
-    max-width: 860px;
-    padding: 5rem 0;
-
+ 
+/* top-contact */
+.top-form .inner-form {
+  width: 29.9%;
+  float: left;
+  margin-right: 5%;
 }
-
-div.Proffesional-summary {
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: teal;
-   
-
-    color:white;
-
-
+ 
+.top-form .inner-form:last-child {
+  margin-right: 0;
 }
-
-div.container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color:rgba(243, 243, 243, 0.726);
-    
-
-
+ 
+ 
+/* middle-form */
+.middle-form {
+  clear: both;
 }
-
-div.btn {
-    font-size: 1.6em;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    cursor: pointer;
+ 
+/* bottom-form */
+.bottom-form textarea {
+  height: 120px;
+}
+ 
+.btn {
+  background: whitesmoke;
+  width: 200px;
+  padding: 10px 0;
+  border-radius: 2px;
+  text-align: center;
+  color: darkcyan;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+ 
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: Arial, Helvetica, sans-serif;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: Arial, Helvetica, sans-serif;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+@media screen and (max-width: 460px) {
+  .wrapper {
+    margin: 25px auto 0;
   }
+  .top-form .inner-form {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .top-form,
+  .middle-form,
+  .bottom-form {
+    margin: 5px 0;
+  }
+  .form {
+    margin-top: 10px;
+  }
+  .form input[type="text"],
+  .form textarea {
+     width: 100%;
+     box-sizing: border-box;
+  }
+}
